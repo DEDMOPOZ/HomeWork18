@@ -35,7 +35,7 @@ http {
     location = /favicon.icon { access_log off; log_not_found off; }
     
     location /static/ {
-    	root /home/dedmopoz/python/HomeWork18/static_content;
+    	root ./HomeWork18/static_content;
     }
     
     location / {
